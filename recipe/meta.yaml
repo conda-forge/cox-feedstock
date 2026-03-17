@@ -1,13 +1,13 @@
 {% set name = "cox" %}
-{% set version = "0.1.post3" %}
+{% set version = "0.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: baa6efce249e4f696de66df5939066f826cebe4b97379ebab8070cc15c9f812e
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: aa7828d4b3e6b2327870e11117642e7dfe349ef2532927ad22c30ea6e4bd1c29
 
 build:
   noarch: python
